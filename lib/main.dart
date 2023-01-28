@@ -23,7 +23,7 @@ class App extends StatelessWidget {
                 children: [
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
+                    children: const [
                       Text(
                         'Hey, Selena',
                         style: TextStyle(
@@ -58,7 +58,7 @@ class App extends StatelessWidget {
                     fontSize: 44,
                     fontWeight: FontWeight.w800),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Row(
